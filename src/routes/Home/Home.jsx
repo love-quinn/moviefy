@@ -11,6 +11,10 @@ const Home = () => {
   const url =
     "https://api.themoviedb.org/3/discover/movie?page=1&sort_by=popularity.desc";
 
+  // const auth_bearer = "import.meta.env.VITE_XX";
+  const auth_bearer =
+    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiY2I3ZTBmNjk3NWVjNjExYjY2NWUzZWRhZmYyMWMzYiIsInN1YiI6IjY2NTBlYmMyZWU4MmI0NWViMjI2YjlhMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ny5px_CSn6cre4HQXO99SBXSdMcqm4jjzkO9uequbf4";
+
   useEffect(() => {
     const getMovies = async () => {
       SetIsError(false);
@@ -19,7 +23,7 @@ const Home = () => {
         method: "GET",
         headers: {
           accept: "application/json",
-          Authorization: import.meta.env.VITE_XX,
+          Authorization: auth_bearer,
         },
       });
       const data = await resp.json();
