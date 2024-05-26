@@ -43,7 +43,9 @@ function LastUpdated() {
       <h1 className="display-4 fw-normal text-body-emphasis">
         Today, {formattedDate}
       </h1>
-      <p className="fs-4 fw-light">The top 20 most watched movies of the day</p>
+      <p className="fs-4 fw-light">
+        The top 20 worldwide most watched movies of the day
+      </p>
       <div id="counter" className="align-self-center">
         <p className="fs-6 fw-light text-body-secondary">
           Next update in
