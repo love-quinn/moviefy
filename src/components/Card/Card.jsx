@@ -11,7 +11,7 @@ const Card = ({ index, movie }) => {
     <div className="col">
       <div className="card mb-4 rounded-3 shadow-sm h-100">
         <div className="d-flex justify-content-between overflow-hidden">
-          <h1 id="index-position">{index + 1}</h1>
+          <h1 id="index-position">{index + 1}&deg;</h1>
           <img src={imageUrl} className="img-fluid rounded w-50" />
         </div>
 

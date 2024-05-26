@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
+import LastUpdated from "../../components/LastUpdated/LastUpdated";
 import Card from "../../components/Card/Card";
 import ErrorComponent from "../../components/ErrorComponent/ErrorComponent";
 
@@ -47,6 +48,7 @@ const Home = () => {
     <main className="container py-4">
       <Header />
 
+      <LastUpdated />
       <section className="container text-center">
         {isError && <ErrorComponent errorMessage={errorMessage} />}
 
