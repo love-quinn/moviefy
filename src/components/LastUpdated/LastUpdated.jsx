@@ -8,9 +8,12 @@ function LastUpdated() {
   useEffect(() => {
     const updateTimeLeft = () => {
       const now = new Date();
-      const tomorrow = new Date();
-      tomorrow.setHours(24, 0, 0, 0);
-      const timeDiff = tomorrow - now;
+      const nextHour = new Date();
+
+      // Set the time to the start of the next hour
+      nextHour.setHours(now.getHours() + 1, 0, 0, 0);
+
+      const timeDiff = nextHour - now;
 
       const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
       const minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
