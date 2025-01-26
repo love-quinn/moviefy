@@ -14,7 +14,7 @@ const Home = () => {
 
   // const auth_bearer = "import.meta.env.VITE_XX";
   const auth_bearer =
-    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiY2I3ZTBmNjk3NWVjNjExYjY2NWUzZWRhZmYyMWMzYiIsInN1YiI6IjY2NTBlYmMyZWU4MmI0NWViMjI2YjlhMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ny5px_CSn6cre4HQXO99SBXSdMcqm4jjzkO9uequbf4";
+    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDk1ODYwYTEyMmZlMDk1ZmY5ODJjMjNlMjcxMTJlOCIsIm5iZiI6MTcxNjU3OTI2Ni44MDcwMDAyLCJzdWIiOiI2NjUwZWJjMmVlODJiNDVlYjIyNmI5YTEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.rWb6jTIOPdq046QsnTYDWGZ2svuNYb2_km_pUqmOOYY";
 
   useEffect(() => {
     const getMovies = async () => {
