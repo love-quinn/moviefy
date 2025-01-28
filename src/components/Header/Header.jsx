@@ -2,9 +2,9 @@ import icon from "../../assets/favicon.svg";
 import earth from "../../assets/earth.svg";
 
 function Header() {
-  const linkedinUrl = "https://www.linkedin.com/in/l-santana-dev/";
-  const githubUrl = "https://github.com/BrazilianBeast/";
-  const youtubeUrl = "https://www.youtube.com/@MonsieurProductions_";
+  const linkedinUrl = "https://www.linkedin.com/in/love-quinn-dev/";
+  const githubUrl = "https://github.com/love-quinn/";
+  const youtubeUrl = "https://www.youtube.com/@love-quinn-dev";
   return (
     <div className="p-5 mb-4 bg-body-tertiary rounded-3">
       <div className="d-flex align-items-end">
