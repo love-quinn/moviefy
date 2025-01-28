@@ -19,7 +19,7 @@ function Header() {
         Discover the daily-most popular movies on earth{" "}
         <img src={earth} alt="" width="22px" />
       </h3>
-      <cite className="fw-light text-muted">by Lucas Santana 🧑‍💻</cite>
+      <cite className="fw-light text-muted">by Lucas Santana</cite>
       <div className="social-media">
         <a className="rounded-circle" target="blank" href={linkedinUrl}>
           <i className="fs-2 bi bi-linkedin"></i>
